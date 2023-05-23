@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.9a25affd.chunk.css",
-  "main.js": "/portfolio/static/js/main.b666d981.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.b666d981.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.34a90352.chunk.css",
+  "main.js": "/portfolio/static/js/main.175538a9.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.175538a9.chunk.js.map",
   "static/js/1.e2723de9.chunk.js": "/portfolio/static/js/1.e2723de9.chunk.js",
   "static/js/1.e2723de9.chunk.js.map": "/portfolio/static/js/1.e2723de9.chunk.js.map",
   "static/js/2.a132f634.chunk.js": "/portfolio/static/js/2.a132f634.chunk.js",
@@ -12,8 +12,8 @@
   "static/media/tensorflow_logo_icon_168671.ico": "/portfolio/static/media/tensorflow_logo_icon_168671.042d5fa5.ico",
   "static/media/kclogo.jpg": "/portfolio/static/media/kclogo.2abacb77.jpg",
   "static/media/styles.css": "/portfolio/static/media/background.7b6a0abb.jpg",
-  "static/css/main.9a25affd.chunk.css.map": "/portfolio/static/css/main.9a25affd.chunk.css.map",
+  "static/css/main.34a90352.chunk.css.map": "/portfolio/static/css/main.34a90352.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.49a8fedb370987fb9fd6ba9587d609d3.js": "/portfolio/precache-manifest.49a8fedb370987fb9fd6ba9587d609d3.js",
+  "precache-manifest.90a7084826a534df7f76244c07f62b7d.js": "/portfolio/precache-manifest.90a7084826a534df7f76244c07f62b7d.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
