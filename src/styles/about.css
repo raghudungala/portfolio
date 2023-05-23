@@ -33,8 +33,6 @@
   display: inline;
 }
 
-/* Responsive Styles */
-
 @media (max-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
