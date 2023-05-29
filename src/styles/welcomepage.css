@@ -110,4 +110,18 @@
   .dropping-letter:nth-child(25) {
     animation-delay: 2.5s;
   }
+
+  @media (max-width: 768px) {
+    #welcomepage {
+      padding: 20px;
+    }
+  
+    #welcomepage > h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+    #welcomepage > h2 {
+      text-align: center;
+    }
+  }
   
