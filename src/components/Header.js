@@ -20,26 +20,26 @@ const Header = () => {
         </ul>
       </nav>
       <div className="side-ribbon">
-      <ul className="ribbon-links">
-        <li className='git'>
-          <a href="https://github.com/raghudungala" target="_blank" rel="noopener noreferrer">
-          <FaGithub size={30} />
-          </a>
-        </li>
-        <li className='linkedin'>
-          <a href="https://www.linkedin.com/in/raghu-dungala-0354/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={30}/>
-          </a>
-        </li>
-        <li className='mail'>
-          <a href="mailto:draghu222@gmail.com">
-            <HiOutlineMail size={30}/>
-          </a>
-        </li>
-      </ul>
-    </div>
+        <ul className="ribbon-links">
+          <li className='git'>
+            <a href="https://github.com/raghudungala" target="_blank" rel="noopener noreferrer">
+              <FaGithub size={30} />
+            </a>
+          </li>
+          <li className='linkedin'>
+            <a href="https://www.linkedin.com/in/raghu-dungala-0354/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className='mail'>
+            <a href="mailto:draghu222@gmail.com">
+              <HiOutlineMail size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
-  );  
+  );
 }
 
 export default Header;

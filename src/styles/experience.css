@@ -64,6 +64,7 @@
 
 @media screen and (max-width: 768px) {
   .experience-list {
-    grid-template-columns: 1fr; /* Change to 1 fraction for mobile */
+    grid-template-columns: 1fr;
+    /* Change to 1 fraction for mobile */
   }
 }
