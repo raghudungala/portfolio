@@ -1,30 +1,32 @@
 import React from "react";
 import "../styles/welcomepage.css"
 import personalImage from "../images/raghu.JPEG"
-import award from "../images/award.png"
-import star from "../images/star.png"
+// import award from "../images/award.png"
+// import star from "../images/star.png"
 
 const WelcomePage = () => {
   return (
     <section id="welcomepage">
-      <div class="container1">
-        <div class="box">
+      {/* <div className="container1">
+        <div className="box">
           <img src={award} alt="award" style={{ width: "100%" }}></img>
         </div>
-        <div class="box">
+        <div className="box">
           <img src={star} alt="award" style={{ width: "100%" }}></img>
         </div>
-        <div class="box">
+        <div className="box">
           <img src={award} alt="award" style={{ width: "100%" }}></img>
         </div>
-        <div class="box">
+        <div className="box">
           <img src={star} alt="award" style={{ width: "100%" }}></img>
         </div>
-      </div>
+      </div> */}
       <div className="circular-image">
         <img src={personalImage} alt="Personal" className="user-pic"></img>
+        
       </div>
       <h1 id="intro">
+      <span role="img" aria-label="hi">👋</span>
         <span className="dropping-letter">H</span>
         <span className="dropping-letter">e</span>
         <span className="dropping-letter">l</span>

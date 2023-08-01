@@ -88,6 +88,7 @@
 .proj span,
 .proj a {
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .proj button {
