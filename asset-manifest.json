@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.c3f76476.chunk.css",
-  "main.js": "/portfolio/static/js/main.01bc0e54.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.01bc0e54.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.4ad124f3.chunk.css",
+  "main.js": "/portfolio/static/js/main.96ede2c2.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.96ede2c2.chunk.js.map",
   "static/js/1.e5846861.chunk.js": "/portfolio/static/js/1.e5846861.chunk.js",
   "static/js/1.e5846861.chunk.js.map": "/portfolio/static/js/1.e5846861.chunk.js.map",
   "static/js/2.6d67a52f.chunk.js": "/portfolio/static/js/2.6d67a52f.chunk.js",
@@ -13,8 +13,8 @@
   "static/media/kclogo.jpg": "/portfolio/static/media/kclogo.2abacb77.jpg",
   "static/media/raghu.JPEG": "/portfolio/static/media/raghu.0c5c0491.JPEG",
   "static/media/styles.css": "/portfolio/static/media/background.7b6a0abb.jpg",
-  "static/css/main.c3f76476.chunk.css.map": "/portfolio/static/css/main.c3f76476.chunk.css.map",
+  "static/css/main.4ad124f3.chunk.css.map": "/portfolio/static/css/main.4ad124f3.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.ad1f20b5f8e5dc5e34491f246325d663.js": "/portfolio/precache-manifest.ad1f20b5f8e5dc5e34491f246325d663.js",
+  "precache-manifest.0827c42311ecb4117a9e198a94395820.js": "/portfolio/precache-manifest.0827c42311ecb4117a9e198a94395820.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
