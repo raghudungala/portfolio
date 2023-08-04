@@ -11,8 +11,8 @@ const WelcomePage = () => {
         <img src={personalImage} alt="Personal" className="user-pic"></img>
       </div>
       <h1 id="intro">
-      <span role="img" aria-label="hi">👋</span>
-      Hello I'm Raghu Dungala
+        <span role="img" aria-label="hi">👋</span>
+        Hello I'm Raghu Dungala
       </h1>
       <h2>Coding with passion, building with excellence.</h2>
 

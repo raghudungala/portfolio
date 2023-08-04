@@ -29,11 +29,11 @@
   font-weight: bold;
 }
 
-.prof{
+.prof {
   font-size: 2rem;
 }
 
-.about-intro{
+.about-intro {
   text-align: justify;
 }
 
@@ -41,10 +41,12 @@
   .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-  .text-right{
+
+  .text-right {
     font-size: 1.75rem;
   }
-  .prof{
+
+  .prof {
     font-size: 1rem;
     align-items: center;
   }
