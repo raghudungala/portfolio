@@ -19,11 +19,7 @@ header {
 
 nav ul {
   display: flex;
-  justify-content: flex-end;
-}
-
-.logo {
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 nav ul li {
@@ -33,8 +29,7 @@ nav ul li {
 .nav_button::after {
   content: "";
   display: block;
-  margin-left: 10px;
-  width: 90%;
+  width: 100%;
   height: 4px;
   background-color: #fff;
   transform: scaleX(0);
@@ -53,10 +48,10 @@ nav ul li {
 
 .nav-menu {
   display: flex;
-  padding-top: 15px;
 }
 
 .nav-menu li {
+  display: flex;
   color: #f6f6f6;
   font-size: 1rem;
   font-weight: 600;
