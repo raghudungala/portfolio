@@ -1,116 +1,65 @@
+
 #skills {
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+#skills h2 {
+  color: white;
 }
 
 #skills-grid {
   display: flex;
-  padding-top: 20px;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-#skills h2 {
-  font-size: 2.25rem;
-  color: white;
-}
-
 .skills-container {
+  width: 100%;
+  max-width: 800px;
   display: flex;
-  flex-direction: column;
-  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between; 
 }
 
 .skill {
-  margin-bottom: 10px;
+  text-align: center;
+  margin: 10px;
+  width: calc(33% - 10px); 
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 0 10px rgba(230, 226, 226, 0.2);
+}
+.tilt {
+  transition: transform 0.5s; /* Add a transition for a smooth tilt effect */
+}
+
+.tilt:hover {
+  transform: scale(1.1) rotate(3deg); /* Adjust the scale and rotation values as needed */
+}
+
+.skill-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 .skill-name {
   font-weight: bold;
-  color: #f0f0f0;
 }
 
-.skill-bar {
-  width: 100%;
-  height: 10px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
+.icons-circle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
 
-.skill-type {
-  background-color: #fff;
-  color: #333;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
+.skill-icon {
   margin: 5px;
-  opacity: 0.8;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.skill-type:hover {
-  opacity: 1;
-  animation: pulse 1s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes dropAnimation1 {
-  0% {
-    opacity: 0;
-    transform: translateX(-200px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.skill-row {
-  display: inline-block;
-  animation-name: dropAnimation1;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-}
-
-.skill-row:nth-child(1) {
-  animation-delay: 0.1s;
-}
-
-.skill-row:nth-child(2) {
-  animation-delay: 0.2s;
-}
-
-.skill-row:nth-child(3) {
-  animation-delay: 0.3s;
-}
-
-.skill-row:nth-child(4) {
-  animation-delay: 0.4s;
-}
-
-.skill-row:nth-child(5) {
-  animation-delay: 0.5s;
-}
-
-.skill-row:nth-child(6) {
-  animation-delay: 0.6s;
+  font-size: 32px;
 }
