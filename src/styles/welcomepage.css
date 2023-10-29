@@ -245,19 +245,26 @@
 }
 
 #intro {
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 0.15rem solid white;
-  animation: blink 0.75s step-end infinite, typing 3s steps(24, end);
+  position: relative;
+  -webkit-box-reflect : below -20px linear-gradient(transparent, rgba(219, 29, 29, 0.2))
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
+#intro span{
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: wavity 3s infinite;
+  animation-delay: calc(.1s*var(--i));
+}
 
-  to {
-    width: 50%;
+@keyframes wavity {
+  0%,
+  40%,
+  100%{
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
   }
 
 }
@@ -288,3 +295,4 @@
     font-size: 15px;
   }
 }
+
