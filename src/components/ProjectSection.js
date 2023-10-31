@@ -4,7 +4,6 @@ import { FaGithub } from "react-icons/fa";
 import breastCancerLogo from "../../src/images/Breast-cancer-logo.png";
 import QbankLogo from "../../src/images/Question Bank logo.png";
 import trafficControl from "../../src/images/Traffic-Control-logo.png";
-import { Tilt } from "react-tilt";
 
 const projectDetails = [
   {
@@ -53,7 +52,7 @@ const ProjectSection = () => (
       }}
     >
       {projectDetails.map((project, index) => (
-        <Tilt className="proj tilt" key={index} perspective={200} tiltMaxAngleX={15} tiltMaxAngleY={15}>
+        <div className="proj">
           <img src={project.logoPath} alt="img"></img>
           <h3>{project.title}</h3>
           <span style={{ opacity: 0.5 }}>{project.description}</span>
@@ -69,7 +68,7 @@ const ProjectSection = () => (
           <a href={project.gitLink}>
             <FaGithub size={30} />
           </a>
-        </Tilt>
+        </div>
       ))}
     </div>
   </section>

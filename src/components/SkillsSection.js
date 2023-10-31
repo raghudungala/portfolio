@@ -42,7 +42,6 @@ const SkillsSection = () => {
       BashOriginalIcon,
       CsharpOriginalIcon,
       JavascriptOriginalIcon,
-      TypescriptOriginalIcon,
     ],
     "Web Design": [
       Html5OriginalWordmarkIcon,
@@ -55,6 +54,7 @@ const SkillsSection = () => {
       FlaskOriginalWordmarkIcon,
       DjangoOriginalIcon,
       NodejsPlainWordmarkIcon,
+      TypescriptOriginalIcon,
     ],
     Database: [
       PostgresqlOriginalWordmarkIcon,

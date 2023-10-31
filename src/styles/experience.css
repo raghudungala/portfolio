@@ -1,6 +1,6 @@
 /* experience.css */
 
-#experiences {
+.experience-section {
   display: flex;
   flex-direction: column;
   padding: 40px;
@@ -8,46 +8,86 @@
   align-items: center;
 }
 
-.experience {
+.experience-section h2 {
+  font-size: 2.25rem;
+  color: white;
+  padding: 20px;
+}
+
+.custom-timeline-dot {
+  width: 32px;
+  height: 32px;
+}
+
+.timeline-image {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.experience-title {
+  color: white;
+}
+
+.experience-duration {
+  color: white;
+}
+
+.company-name {
+  display: none;
+  color: white;
+}
+
+.experience-details {
   display: grid;
+  color: white;
   grid-template-columns: 100%;
   gap: 30px;
   padding: 20px;
   border-bottom: 1px solid white;
   position: relative;
-  background-color: #4216bb;
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
 
-.experience .experience-details {
+.details-inner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.experience p {
+.role-description {
   font-size: 16px;
   margin-bottom: 10px;
   text-align: justify;
 }
 
-.experience h4 {
+.details-inner h4 {
   color: white;
   margin-bottom: 10px;
 }
 
-
-#experiences h2 {
-  font-size: 2.25rem;
-  color: white;
-  padding: 20px;
-}
-
 @media screen and (max-width: 768px) {
-  .experience-list {
-    grid-template-columns: 1fr;
+  .experience-details {
+    display: none;
+  }
+
+  .experience-section {
+    padding: 20px;
+  }
+
+  .role-description {
+    font-size: 14px;
+  }
+
+  .experience-title {
+    font-size: 15px;
+    /* padding: 10px; */
+  }
+
+  .company-name {
+    display: inline;
   }
 }

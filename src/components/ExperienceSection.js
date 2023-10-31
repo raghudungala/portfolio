@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/experience.css";
 import { Tilt } from "react-tilt";
-
 import { Timeline } from "@mui/lab";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import breastcancer from "../images/Breast-cancer-logo.png";
+import breastCancerLogo from "../images/Breast-cancer-logo.png";
+
 const experiences = [
   {
     title: "Application Developer",
@@ -49,32 +49,33 @@ const experiences = [
 
 const ExperienceSection = () => {
   return (
-    <section id="experiences">
+    <section className="experience-section">
       <h2>Experience</h2>
       <Timeline position="alternate">
         {experiences.map((data, index) => (
           <TimelineItem key={index}>
             <TimelineSeparator>
-              <TimelineDot style={{ width: "32px", height: "32px" }}>
+              <TimelineDot className="custom-timeline-dot">
                 <img
-                  src={breastcancer}
-                  alt="hs"
-                  style={{ borderRadius: "50%", width: "100%" }}
-                ></img>
+                  src={breastCancerLogo}
+                  alt="breast cancer"
+                  className="timeline-image"
+                />
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <h3 style={{ color: "white" }}>{data.title}</h3>
-              <p style={{ color: "white" }}>{data.duration}</p>
+              <h3 className="experience-title">{data.title}</h3>
+              <p className="experience-duration">{data.duration}</p>
+              <h4 className="company-name">{data.company}</h4>
               <Tilt>
-                <div className="experience" key={index}>
-                  <div className="experience-details">
+                <div className="experience-details" key={index}>
+                  <div className="details-inner">
                     <h4>{data.company}</h4>
                     <ul>
                       {data.roles.map((role, roleIndex) => (
-                        <li>
-                          <p key={roleIndex}>{role}</p>
+                        <li key={roleIndex}>
+                          <p className="role-description">{role}</p>
                         </li>
                       ))}
                     </ul>

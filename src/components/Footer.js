@@ -13,6 +13,7 @@ const Footer = () => {
   };
   return (
     <footer>
+      <div>
       <p>Get In Touch</p>
       <div className="card">
         <div className="contact_form">
@@ -56,6 +57,7 @@ const Footer = () => {
       </div>
 
       <p>&copy; {new Date().getFullYear()} Raghu</p>
+      </div>
     </footer>
   );
 };

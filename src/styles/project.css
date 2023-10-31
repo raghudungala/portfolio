@@ -43,11 +43,6 @@
   }
 }
 
-.proj:hover {
-  /* transform: scale(1.05) rotate(5deg); */
-  transition: transform 0.3s ease-in-out;
-  animation: fade-in 1s ease-in-out forwards, slide-up 1s ease-in-out forwards, float 2s ease-in-out infinite;
-}
 
 @keyframes fade-in {
   from {
@@ -136,14 +131,6 @@
   }
 }
 
-.tilt {
-  transition: transform 0.5s; /* Add a transition for a smooth tilt effect */
-}
-
-.tilt:hover {
-  transform: scale(1.1) rotate(3deg); /* Adjust the scale and rotation values as needed */
-}
-
 .project-card {
   display: flex;
   flex-direction: column;
@@ -159,13 +146,13 @@
 }
 
 .project-image {
-  width: 50%; /* Adjust the width as needed to control the image size */
+  width: 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .project-details {
-  flex: 1; /* Take up the remaining space */
+  flex: 1;
   padding: 20px;
 }

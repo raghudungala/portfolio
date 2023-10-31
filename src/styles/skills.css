@@ -1,4 +1,4 @@
-
+/* For desktop or larger screens */
 #skills {
   text-align: center;
   margin: 20px;
@@ -19,24 +19,27 @@
   max-width: 800px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .skill {
   text-align: center;
   margin: 10px;
-  width: calc(33% - 10px); 
+  width: calc(33% - 10px);
   padding: 10px;
   border-radius: 8px;
   color: white;
   box-shadow: 0 0 10px rgba(230, 226, 226, 0.2);
 }
+
 .tilt {
-  transition: transform 0.5s; /* Add a transition for a smooth tilt effect */
+  transition: transform 0.5s; 
 }
 
 .tilt:hover {
-  transform: scale(1.1) rotate(3deg); /* Adjust the scale and rotation values as needed */
+  transform: scale(1.1) rotate(3deg); 
+  background-color: antiquewhite;
+  color: black;
 }
 
 .skill-circle {
@@ -62,4 +65,28 @@
 .skill-icon {
   margin: 5px;
   font-size: 32px;
+}
+
+/* Media Query for tablets */
+@media (max-width: 768px) {
+  .skills-container {
+    max-width: 600px;
+  }
+  .skill {
+    width: calc(50% - 20px);
+  }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+  .skills-container {
+    max-width: 100%;
+    padding: 0 10px; /* Adjust margins for smaller screens */
+  }
+  .skill {
+    width: calc(100% - 20px);
+  }
+  .icons-circle {
+    flex-direction: column;
+  }
 }
