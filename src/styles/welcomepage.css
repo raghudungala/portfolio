@@ -254,7 +254,7 @@
   display: inline-block;
   text-transform: uppercase;
   animation: wavity 3s infinite;
-  animation-delay: calc(.1s*var(--i));
+  animation-delay: calc(.3s*var(--i));
 }
 
 @keyframes wavity {
