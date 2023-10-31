@@ -76,9 +76,9 @@ const Header = () => {
               className="nav_button"
               onClick={handleClose}
               activeClass="active"
-              to="experience"
+              to="experience-section"
               smooth={true}
-              offset={-120}
+              offset={-50}
               duration={500}
             >
               Experience
