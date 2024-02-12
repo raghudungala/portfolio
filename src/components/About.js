@@ -22,10 +22,7 @@ const About = () => {
             efficient, scalable, and user-friendly solutions that solve
             real-world problems. I have expertise in React.js framework and I am
             committed to staying up-to-date with the latest technologies and
-            best practices in the field. I am a bilingual individual fluent in
-            both English and Vietnamese. I have a background in the medical
-            field, but have transitioned into tech industry to express my
-            creativity through programming. I have a passion for coding and
+            best practices in the field. I have a passion for coding and
             climbing, and enjoy pursuing activities that challenge both mentally
             and physically. With my diverse skill set and interests, I can
             contribute to a wide range of projects and teams.

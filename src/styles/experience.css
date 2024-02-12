@@ -24,30 +24,12 @@
   width: 100%;
 }
 
-.experience-title {
-  color: white;
-}
-
-.experience-duration {
-  color: white;
-}
-
-.company-name {
-  display: none;
-  color: white;
-}
-
 .experience-details {
-  display: grid;
   color: white;
-  grid-template-columns: 100%;
-  gap: 30px;
-  padding: 20px;
+  /* padding: 20px; */
   border-bottom: 1px solid white;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
 
@@ -70,10 +52,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .experience-details {
-    display: none;
-  }
-
   .experience-section {
     padding: 20px;
   }
@@ -85,9 +63,5 @@
   .experience-title {
     font-size: 15px;
     /* padding: 10px; */
-  }
-
-  .company-name {
-    display: inline;
   }
 }

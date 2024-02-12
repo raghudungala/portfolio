@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(216,226,220,0.5), rgba(157,129,137,0.5)), url(../images/raghu.JPEG);
+  background-image: linear-gradient(0.25turn,rgba(246, 157, 60, 0.5), rgba(235, 248, 225, 0.5),rgba(63, 135, 166, 0.5)), url(../images/raghu.JPEG);
   background-size: cover;
   /* background-position: center; */
 }

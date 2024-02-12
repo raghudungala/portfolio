@@ -23,8 +23,8 @@ const experiences = [
     duration: "July 2022 - Aug 2023",
   },
   {
-    title: "Software Engineer",
-    company: "Innominds Software Inc.",
+    title: "Software Developer",
+    company: "Splunk Technology",
     roles: [
       "Created reusable components using React.js, reducing development time by 20% and promoting consistency across the application.",
       "Captured and processed Splunk query results in various formats, including lists, tables, and raw data, improving data analysis efficiency by 30% using Python",
@@ -34,7 +34,7 @@ const experiences = [
     duration: "Dec 2018 - Aug 2019",
   },
   {
-    title: "Associate Software Engineer",
+    title: "Web Developer",
     company: "Innominds Software Inc.",
     roles: [
       "Designed and developed web pages with ReactJS, Redux, and Axios, implementing responsive and dynamic user interfaces with React Hooks and CSS frameworks like Bootstrap and Material-UI.",
@@ -70,8 +70,8 @@ const ExperienceSection = () => {
                 />
               )}
             </TimelineSeparator>
-            <TimelineContent>
-              <div>
+            <TimelineContent style={{ width: "50vw" }}>
+              <div className="experience-details">
                 <h3 className="experience-title">{data.title}</h3>
                 <p className="experience-duration">{data.duration}</p>
                 <h4 className="company-name">{data.company}</h4>

@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import breastCancerLogo from "../../src/images/Breast-cancer-logo.png";
 import QbankLogo from "../../src/images/Question Bank logo.png";
 import trafficControl from "../../src/images/Traffic-Control-logo.png";
-import llmimage from "../../src/images/LLM Image.png";
+import llmimage from "../../src/images/LLMImage.png";
 
 const projectDetails = [
   {
@@ -68,22 +68,28 @@ const ProjectSection = () => (
             backgroundImage: `url(${project.logoPath})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
+            opacity: 0.8,
           }}
         >
-          <h3>{project.title}</h3>
-          <span style={{ opacity: 0.5 }}>{project.description}</span>
-          <span>
-            {project.skills.map((skill, index) => (
-              <SkillTag
-                key={index}
-                skill={skill}
-                isLast={index === project.skills.length - 1}
-              />
-            ))}
-          </span>
-          <a href={project.gitLink}>
-            <FaGithub size={30} />
-          </a>
+          <div className="project_title">
+            <h3>{project.title}</h3>
+            <div>
+              <span style={{ opacity: 0.5 }}>{project.description}</span>
+            </div>
+
+            {/* <span>
+              {project.skills.map((skill, index) => (
+                <SkillTag
+                  key={index}
+                  skill={skill}
+                  isLast={index === project.skills.length - 1}
+                />
+              ))}
+            </span> */}
+            <a href={project.gitLink}>
+              <FaGithub size={30} />
+            </a>
+          </div>
         </div>
       ))}
     </div>
