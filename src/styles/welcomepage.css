@@ -1,4 +1,4 @@
-#welcomepage {
+#welcome_page {
   display: flex;
   height: 100vh;
   padding: 0;
@@ -9,9 +9,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: linear-gradient(rgba(216,226,220,0.5), rgba(157,129,137,0.5)), url(../images/raghu.JPEG);
+  background-size: cover;
+  /* background-position: center; */
 }
 
-#welcomepage>h1 {
+.name{
+  margin-top: 30%;
+}
+
+.name > h1 {
   font-size: 50px;
 }
 
@@ -280,17 +287,17 @@
 }
 
 @media (max-width: 768px) {
-  #welcomepage {
+  #welcome_page {
     padding: 20px;
     height: 75vh;
   }
 
-  #welcomepage>h1 {
+  .name>h1 {
     font-size: 25px;
     text-align: center;
   }
 
-  #welcomepage>h2 {
+  .name>h2 {
     text-align: center;
     font-size: 15px;
   }

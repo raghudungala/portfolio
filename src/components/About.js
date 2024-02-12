@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/about.css";
+import personalImage from "../images/raghu.JPEG";
 
 const About = () => {
   return (
@@ -9,8 +10,9 @@ const About = () => {
       </div>
       <div className="grid-container">
         <div className="text-right">
-          <p>Hi. I'm Raghu Dungala</p>
-          <h2 className="prof"> Software Engineer</h2>
+        <div className="circular-image">
+        <img src={personalImage} alt="Personal" className="user-pic" />
+      </div>
         </div>
         <div>
           <p className="about-intro">

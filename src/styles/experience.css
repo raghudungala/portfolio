@@ -3,15 +3,15 @@
 .experience-section {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 5%;
   justify-content: center;
   align-items: center;
+  background-color: #aec3b0;
 }
 
 .experience-section h2 {
   font-size: 2.25rem;
   color: white;
-  padding: 20px;
 }
 
 .custom-timeline-dot {

@@ -18,20 +18,17 @@ const WelcomePage = () => {
   const nameWithSpaces = addSpaces("Raghu...");
 
   return (
-    <section id="welcomepage">
-      <div className="circular-image">
-        <img src={personalImage} alt="Personal" className="user-pic" />
+    <section id="welcome_page" style={{ backgroundImage: { personalImage } }}>
+      <div className="name">
+        <h1 id="intro">
+          {/* <span role="img" aria-label="hi"> */}
+          👋
+          {/* </span> */}
+          I'm &nbsp;
+          {nameWithSpaces}
+        </h1>
+        <h2>Coding with passion, building with excellence.</h2>
       </div>
-      <h1 id="intro">
-        {/* <span role="img" aria-label="hi"> */}
-        👋
-        {/* </span> */}
-        I'm &nbsp;
-        {nameWithSpaces}
-      </h1>
-      <h2 style={{ marginTop: "20px" }}>
-        Coding with passion, building with excellence.
-      </h2>
     </section>
   );
 };

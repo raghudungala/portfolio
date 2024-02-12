@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
-      <p>Get In Touch</p>
+      {/* <p>Get In Touch</p>
       <div className="card">
         <div className="contact_form">
           <label>Your Name</label>
@@ -54,7 +54,7 @@ const Footer = () => {
             Submit
           </button>
         </div>
-      </div>
+      </div> */}
 
       <p>&copy; {new Date().getFullYear()} Raghu</p>
       </div>

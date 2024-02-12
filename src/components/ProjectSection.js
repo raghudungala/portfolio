@@ -62,8 +62,14 @@ const ProjectSection = () => (
       }}
     >
       {projectDetails.map((project, index) => (
-        <div className="proj">
-          <img src={project.logoPath} alt="img"></img>
+        <div
+          className="proj"
+          style={{
+            backgroundImage: `url(${project.logoPath})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
           <h3>{project.title}</h3>
           <span style={{ opacity: 0.5 }}>{project.description}</span>
           <span>

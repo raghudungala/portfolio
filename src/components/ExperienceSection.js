@@ -62,13 +62,21 @@ const ExperienceSection = () => {
                   className="timeline-image"
                 />
               </TimelineDot>
-              <TimelineConnector />
+              {index < experiences.length - 1 && (
+                <TimelineConnector
+                  sx={{
+                    backgroundColor: "green",
+                  }}
+                />
+              )}
             </TimelineSeparator>
             <TimelineContent>
-              <h3 className="experience-title">{data.title}</h3>
-              <p className="experience-duration">{data.duration}</p>
-              <h4 className="company-name">{data.company}</h4>
-              <Tilt>
+              <div>
+                <h3 className="experience-title">{data.title}</h3>
+                <p className="experience-duration">{data.duration}</p>
+                <h4 className="company-name">{data.company}</h4>
+              </div>
+              {/* <Tilt>
                 <div className="experience-details" key={index}>
                   <div className="details-inner">
                     <h4>{data.company}</h4>
@@ -81,7 +89,7 @@ const ExperienceSection = () => {
                     </ul>
                   </div>
                 </div>
-              </Tilt>
+              </Tilt> */}
             </TimelineContent>
           </TimelineItem>
         ))}

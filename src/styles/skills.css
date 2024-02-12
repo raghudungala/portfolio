@@ -1,7 +1,8 @@
 /* For desktop or larger screens */
 #skills {
+  padding: 5%;
   text-align: center;
-  margin: 20px;
+  background-color: #124559;
 }
 
 #skills h2 {
@@ -28,12 +29,12 @@
   width: calc(33% - 10px);
   padding: 10px;
   border-radius: 8px;
-  color: white;
   box-shadow: 0 0 10px rgba(230, 226, 226, 0.2);
 }
 
 .tilt {
   transition: transform 0.5s; 
+  color: white;
 }
 
 .tilt:hover {
