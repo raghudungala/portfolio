@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   opacity: 0.8;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,7 +252,10 @@
 }
 
 #intro {
+  font-style: italic;
   position: relative;
+  text-align: center;
+  text-decoration: underline overline;
   -webkit-box-reflect : below -20px linear-gradient(transparent, rgba(219, 29, 29, 0.2))
 }
 
@@ -260,8 +263,13 @@
   position: relative;
   display: inline-block;
   text-transform: uppercase;
+  text-decoration: underline overline;
   animation: wavity 3s infinite;
-  animation-delay: calc(.3s*var(--i));
+  animation-delay: calc(.1s*var(--i));
+}
+
+.name h2{
+  text-decoration: underline
 }
 
 @keyframes wavity {
@@ -294,11 +302,9 @@
 
   .name>h1 {
     font-size: 25px;
-    text-align: center;
   }
 
   .name>h2 {
-    text-align: center;
     font-size: 15px;
   }
 }
