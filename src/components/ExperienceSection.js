@@ -70,11 +70,13 @@ const ExperienceSection = () => {
                 />
               )}
             </TimelineSeparator>
-            <TimelineContent style={{ width: "50vw" }}>
-              <div className="experience-details">
+            <TimelineContent
+              style={{ width: "50vw"}}
+            >
+              <div className="experience-details" style={{fontStyle: "italic", color: "black" }}>
                 <h3 className="experience-title">{data.title}</h3>
-                <p className="experience-duration">{data.duration}</p>
                 <h4 className="company-name">{data.company}</h4>
+                <p className="experience-duration">{data.duration}</p>
               </div>
               {/* <Tilt>
                 <div className="experience-details" key={index}>

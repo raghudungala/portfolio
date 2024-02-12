@@ -37,6 +37,7 @@
 
 .about-intro {
   text-align: justify;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {
