@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a46860de5f6b12efe99d",
-    "url": "/portfolio/static/css/main.e15c9b79.chunk.css"
+    "revision": "1079ad7a1638d47dfc9c",
+    "url": "/portfolio/static/css/main.b0f8e238.chunk.css"
   },
   {
-    "revision": "a46860de5f6b12efe99d",
-    "url": "/portfolio/static/js/main.a46860de.chunk.js"
+    "revision": "1079ad7a1638d47dfc9c",
+    "url": "/portfolio/static/js/main.1079ad7a.chunk.js"
   },
   {
     "revision": "11be3e94e21a85f03972",
@@ -20,19 +20,23 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.26a04f50.js"
   },
   {
+    "revision": "f42825b9c1c0b08a6c11062305a2a847",
+    "url": "/portfolio/static/media/Breast-cancer-logo.f42825b9.png"
+  },
+  {
     "revision": "0c5c04919d51f02f80119f45b105a9e1",
     "url": "/portfolio/static/media/raghu.0c5c0491.JPEG"
   },
   {
-    "revision": "f4af983cf51447a2a16aac95c263318f",
-    "url": "/portfolio/static/media/LLM Image.f4af983c.png"
+    "revision": "189eb770b6617f0df91943b395ab7bfb",
+    "url": "/portfolio/static/media/LLMImage.189eb770.png"
   },
   {
     "revision": "7b6a0abbabe5f665fc7e08e5aa808d13",
     "url": "/portfolio/static/media/background.7b6a0abb.jpg"
   },
   {
-    "revision": "1dff832680aa56960ea3cda2e5edd1ac",
+    "revision": "3359c1fe341be827fefb5b35c4d4961e",
     "url": "/portfolio/index.html"
   }
 ];
